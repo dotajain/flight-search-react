@@ -1,0 +1,38 @@
+// variables.
+
+// Color palette
+$white: 			#ffffff !default;
+$black: 			#000000 !default;
+$gray-dark:			#262626 !default;
+
+$gray-blue:			#7c8389 !default;
+$green: #76ba35 !default;
+$btn-gray: #e4e4e4 !default;
+
+
+// Typography
+$base-font-size:    16px;
+$base-line-height:  24px;
+
+$base-radius:       3px;
+
+$base-spacing-unit: 1rem;
+
+$img_dir: '../images';
+
+// Breakpoints
+$mobile:			360px !default;
+
+$mobile-large:		640px !default;
+
+$tablet:			768px !default;
+
+$tablet-medium-max:	991px !default;
+
+$tablet-large:		1024px !default;
+
+$tablet-max:		$tablet-large - 1 !default;
+
+$desktop:			1200px !default;
+$desktop-medium:	1440px !default;
+$desktop-large:		1600px !default;

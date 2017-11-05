@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Properly rendered FlightSearchInfo Component 1`] = `
+<div
+  className="col"
+>
+  <div
+    className="flight"
+  >
+    <small
+      className="flight__number"
+    >
+      993 - UK
+    </small>
+    <div
+      className="flight__airport-code"
+    >
+      DEL &gt; BOM
+    </div>
+    <div
+      className="flight__time"
+    >
+      <span
+        className="flight__time--label"
+      >
+        Depart:
+      </span>
+      <span
+        className="flight__time--value"
+      >
+        12:50
+      </span>
+    </div>
+    <div
+      className="flight__time"
+    >
+      <span
+        className="flight__time--label"
+      >
+        Arrive:
+      </span>
+      <span
+        className="flight__time--value"
+      >
+        14:55
+      </span>
+    </div>
+  </div>
+</div>
+`;

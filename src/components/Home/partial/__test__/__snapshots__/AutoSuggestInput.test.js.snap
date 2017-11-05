@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Properly rendered AutoSuggestInput Component 1`] = `
+<div
+  className="form__field form__field--text"
+>
+  <label
+    className="form__label"
+    htmlFor={undefined}
+  />
+  <div
+    className="form__field--contents"
+  >
+    <div
+      className="react-autosuggest__container"
+    >
+      <input
+        aria-activedescendant={null}
+        aria-autocomplete="list"
+        aria-expanded={false}
+        aria-haspopup={false}
+        aria-owns="react-autowhatever-1"
+        autoComplete="off"
+        className="react-autosuggest__input"
+        id={undefined}
+        name={undefined}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        placeholder={undefined}
+        role="combobox"
+        type="text"
+        value=""
+      />
+      <div
+        className="react-autosuggest__suggestions-container"
+        id="react-autowhatever-1"
+      />
+    </div>
+  </div>
+</div>
+`;

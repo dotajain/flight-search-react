@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Properly rendered SearchResultCard Component 1`] = `
+<div
+  className="box box__card"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col"
+    >
+      <div
+        className="price"
+      >
+         Rs. 
+        5,972
+         
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col"
+        >
+          <div
+            className="flight"
+          >
+            <small
+              className="flight__number"
+            >
+              993 - UK
+            </small>
+            <div
+              className="flight__airport-code"
+            >
+              DEL &gt; BOM
+            </div>
+            <div
+              className="flight__time"
+            >
+              <span
+                className="flight__time--label"
+              >
+                Depart:
+              </span>
+              <span
+                className="flight__time--value"
+              >
+                12:50
+              </span>
+            </div>
+            <div
+              className="flight__time"
+            >
+              <span
+                className="flight__time--label"
+              >
+                Arrive:
+              </span>
+              <span
+                className="flight__time--value"
+              >
+                14:55
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col"
+        >
+          <div
+            className="flight"
+          >
+            <small
+              className="flight__number"
+            >
+              993 - UK
+            </small>
+            <div
+              className="flight__airport-code"
+            >
+              DEL &gt; BOM
+            </div>
+            <div
+              className="flight__time"
+            >
+              <span
+                className="flight__time--label"
+              >
+                Depart:
+              </span>
+              <span
+                className="flight__time--value"
+              >
+                12:50
+              </span>
+            </div>
+            <div
+              className="flight__time"
+            >
+              <span
+                className="flight__time--label"
+              >
+                Arrive:
+              </span>
+              <span
+                className="flight__time--value"
+              >
+                14:55
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col search__result--flight-logo"
+    >
+      <div
+        className="box"
+      >
+        <div
+          className="flight__logo"
+        >
+          <div
+            className="flight__logo--box"
+          >
+            Flight Logo
+          </div>
+        </div>
+        <button
+          className="flight--btn"
+        >
+          Book this flight
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

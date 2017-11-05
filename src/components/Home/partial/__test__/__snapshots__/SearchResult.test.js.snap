@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Properly rendered SearchResult Component 1`] = `
+<div
+  className="col col--9 no-result"
+/>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Properly rendered Header Component 1`] = `
+<header
+  className="header"
+>
+  <h1>
+    Flight Search Engine
+  </h1>
+</header>
+`;

@@ -1,0 +1,155 @@
+// Form Styling.
+
+.tw {
+  &-form {
+    border-right: 2px solid #dcdcdc;
+    padding: 20px;
+    width: 100%;
+    &--header {
+      button {
+        color: $black;
+        background-color: #bfd8de;
+        border: 0;
+        padding: 10px 10px;
+        &.active {
+          background: #50b3cc;
+          color: #ffffff;
+        }
+      }
+    }
+    &--group {
+      border: 1px solid $black;
+      + .tw-form--group{
+        border-top: 0;
+      }
+      label {
+        padding: 10px 15px;
+        display: block;
+        margin-bottom: 6px;
+      }
+    }
+    &--field {
+      border: 0;
+      padding: 0 15px;
+      height: 40px;
+      width: 100%;
+    }
+    &--button {
+      padding: 10px 0;
+      button {
+        width: 100%;
+        padding: 10px;
+        background-color: #50b3cc;
+        color: $white;
+        border: 0;
+      }
+    }
+  }
+}
+
+/* react autosuggest */
+.react-autosuggest {
+  &__container {
+    position: relative;
+  }
+
+  &__input {
+    width: 100%;
+    padding: 10px 20px;
+    font-weight: 300;
+    font-size: 16px;
+    border: 0;
+    background-color: $white;
+    -webkit-appearance: none;
+
+    &--focused {
+      outline: none;
+    }
+
+    &--open {
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+  }
+
+  &__suggestions {
+    &-container {
+      display: none;
+      &--open {
+        display: block;
+        position: absolute;
+        top: 38px;
+        left: -1px;
+        width: calc(100% + 2px);
+        background-color: #FFF;
+        font-weight: 300;
+        font-size: 16px;
+        border: 1px solid #0748a5;
+        z-index: 2;
+        max-height: 300px;
+        overflow: auto;
+      }
+    }
+    &-list {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+  }
+
+  &__suggestion {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border-left: 3px solid transparent;
+    &--highlighted {
+      background-color: #f4f5f7;
+      border-left-color: #0748a5;
+    }
+  }
+
+  &__section{
+    &-container {
+      border-top: 1px dashed #ccc;
+      &--first {
+        border-top: 0;
+      }
+    }
+    &-title {
+      padding: 10px 0 0 10px;
+      font-size: 12px;
+      color: #777;
+    }
+  }
+  &__result {
+    display: flex;
+    align-items: center;
+    .airport-code {
+      display: inline-block;
+      vertical-align: middle;
+      width: 40px;
+      text-align: center;
+      border: 1px solid rgba(0,0,0,.64);
+      margin-right: 10px;
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 16px;
+      border-radius: 2px;
+      color: rgba(0,0,0,.64);
+    }
+    .city {
+      font-size: 14px;
+      color: rgba(0,0,0,.87);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .airport {
+      font-size: 12px;
+      color: rgba(0,0,0,.64);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+}

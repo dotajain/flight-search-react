@@ -1,0 +1,18 @@
+// Grid Styling. 
+
+.tw{
+  &-row {
+    margin: 0 -20px;
+    display: flex;
+    flex-direction: row;
+  }
+  &-col {
+    display: flex;
+    &-3{
+      width: 33.33%;
+    }
+    &-9{
+      width: 66.66%;
+    }
+  }
+}

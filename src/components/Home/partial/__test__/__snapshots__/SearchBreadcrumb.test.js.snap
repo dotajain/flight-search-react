@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Properly rendered SearchBreadcrumb Component 1`] = `
+<div
+  className="search__result--header"
+>
+  <div
+    className="breadcrumbs"
+  >
+    <span />
+    <span />
+  </div>
+  <div
+    className="box search__dates"
+  >
+    <div
+      className="search__dates--item"
+    >
+      <span
+        className="search__dates--label"
+      >
+        Depart:
+      </span>
+       
+      <span
+        className="search__dates--value"
+      >
+        16-Oct-2017
+      </span>
+    </div>
+  </div>
+</div>
+`;
